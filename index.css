@@ -1,0 +1,50 @@
+#head{
+
+ display: flex;
+ flex-direction: row;
+ font-size: 10px;
+ color: white;
+ height: 50px;
+ width: 100%;
+
+}
+.container_1{
+    display: flex;
+    align-items: flex-start;
+}
+#caja_1{
+height: 200px;
+width: 300px;
+}
+#caja_2{
+height: 200px;
+width: 300px;
+}
+
+ #caja_3{
+ height: 200px;
+ width: 300px;
+}
+
+.total_pagar{
+display: flex;
+align-items: stretch;
+background-color: aquamarine;
+height: 80px;
+width: 100%;
+}
+#botones_verde{
+display: flex;
+
+}
+
+.boton_2{
+    background-color:  rgb(113, 207, 113);
+    color: white;
+    width: 250px;
+}
+
+.venta {
+    display:flex;
+    justify-content: center;
+}

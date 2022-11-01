@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="head">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <h1>Conf Bs As</h1>
+            <a class="navbar-brand" href="#">La conferencia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Los oradores</a>
+                <a class="nav-link" href="#">El Lugar y la fecha</a>
+                <a class="nav-link" href="#">Conviertete en Orador</a>
+                <a class="nav-link disabled">Comprar Tickets</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>  
+
+    <div class="container_1">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Estudiante</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Tiene Descuento</h6>
+              <p class="card-text">80 %</p>
+              <p class="card-text">Presentar Documentacion.</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Trainee</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Tiene Descuento</h6>
+              <p class="card-text">50 %</p>
+              <p class="card-text">Presentar Documentacion</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Junior</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Tiene Descuento</h6>
+              <p class="card-text">15 %</p>
+              <p class="card-text">Presentar Documentacion</p>
+            </div>
+          </div>
+    </div>
+    <div class="venta">
+        <p>Venta</p>
+    </div>
+    
+    <div>
+        <h1>VALOR DE TICKET $200</h1>
+    </div>
+
+    <input type="text" placeholder="Nombre" id="nombre"> <input type="text" placeholder="Apellido" id="apellido">
+    
+    <input type="text" placeholder="Correo" id="correo">
+    
+    <tr></tr>
+    Cantidad
+    <input type="text" placeholder="Cantidad" id="cantidad"> 
+    Categoria
+    <select id="categoria">
+        <option value="" selected>--Seleccione--</option>
+        <option value="0">Sin categoria</option>
+        <option value="1">Estudiante</option>
+        <option value="2">Trainee</option>
+        <option value="3">Junior</option>
+    </select>
+
+    <div class="total_pagar">
+        Total a Pagar$ <p id="total_pagar"> 0</p>
+    </div>
+        
+    
+    
+    <div id="botones_verdes">
+        <button onclick="reset()"  class="boton_2" type="button">Borrar</button>
+        <button  onclick="calcularResumen()" class="boton_2" type="button">Resumen</button>
+        
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Preguntas Frecuentes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Contactanos</a>
+              <a class="nav-link" href="#">Prensa</a>
+              <a class="nav-link" href="#">Conferencia</a>
+              <a class="nav-link" href="#">Privacidad</a>
+              <a class="nav-link" href="#">Estudiante</a>
+              <a class="nav-link disabled">Terminos y Condiciones</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+</body>
+</html>
